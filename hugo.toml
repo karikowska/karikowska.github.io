@@ -29,13 +29,24 @@ linkedin_username = "karolina-a-kowalska"
 
 [[params.experience]]
 company = "GSK"
-role = "Digital and Tech Associate (FLP Graduate Scheme)"
+role = "Digital and Tech Associate (Future Leader Programme)"
 period = "Sept 2024 - Present"
 logo = "/images/logo/gsk.png"
-description = "First rotation in Supply Chain, working on AI, Digital Twins and Autonomous Systems. Stack: AzureML, Python, pytest"
+description = "First rotation in Supply Chain - working on AI, Digital Twins and Autonomous Systems. Stack: AzureML, Python, pytest"
 responsibilities = [
     "Key responsibility with specific achievement",
 ]
+
+[[params.experience]]
+role = "Events and Partnerships Lead"
+company = "Uplift, a GSK UK ERG"
+period = "Jan 2025 - Present"
+description = "Liaising with external partners and subject matter experts to design and organise events for hundreds of members, with the aim of spreading awareness and educating about social mobility within the organisation."
+responsibilities = ["- Managing a team of three to design and organise events for hundreds of members, while reporting directly to the co-founders and other leads",
+"- My events have led to membership in ERG increasing by 150%< since I started and being awarded GSK Bronze Award",
+"- Learning how to navigate complex environment and policies within a large corporate organisation, influence and manage others effectively"
+]
+
 
 [[params.experience]]
 company = "Durham University"
@@ -44,7 +55,10 @@ period = "Sept 2020 - July 2024"
 logo = "/images/logo/dur.png"
 description = "First Class Honours. Thesis: 71%"
 responsibilities = [
-    "Key responsibility with specific achievement",
+    "- Worked as a teaching assistant for Computer Systems module for two years, teaching and helping break down complex concepts for 150+ students",
+    "- Software Engineering - Successfully led a team of colleagues over an academic year to construct an educational web app for neurodivergent children",
+    "- Project Management - Successfully managed a team of software engineering students to build a QnA web app - received a 90% approval rating from engineers for my management style and 81% for my final report",
+    "- Human-AI Interaction - Despite having a team member drop out, I successfully led a team of 8 to build a mobile AI-powered flashcard app under intense time pressure of a month",
 ]
 
 [[params.projects]]
@@ -55,10 +69,10 @@ responsibilities = [
     link = "https://github.com/karikowska/price-scraper"
 
 [[params.voluntary]]
-role = "Events and Partnerships Lead"
-organization = "Uplift, a GSK UK ERG"
-period = "Jan 2025 - Present"
-description = "Brief description of your volunteer work and responsibilities."
+role = "Mentor"
+organization = "ZeroGravity, Stemettes, GSK"
+period = "Sept 2024 - Present"
+description = "I've mentored almost ten young people thus far. I love supporting them on their career/university journey and helping them find out where their passion and skills can take them :)"
 
 [menu]
   [[menu.main]]
