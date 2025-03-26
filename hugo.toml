@@ -25,7 +25,7 @@ discord = "scionofdarkness"
 github = "https://github.com/karikowska"
 email = "karo.a.kowalska@gmail.com"
 linkedin = "https://linkedin.com/in/karolina-a-kowalska"
-noJekyll = true
+linkedin_username = "karolina-a-kowalska"
 
 [[params.experience]]
 company = "GSK"

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Blog - Karolina K.</title>
+        <title> - Karolina K.</title>
         
         
         <link rel="apple-touch-icon" sizes="180x180" href="https://karikowska.github.io/favicon_io/apple-touch-icon.png">
@@ -292,13 +292,91 @@ pills.forEach(p => p.classList.remove("bg-white/10", "font-semibold", "border-gr
 </script> 
         <main>
             
-<div class="w-full md:w-3/4 lg:w-1/2 mx-auto px-4 py-12">
-    <h1 class="text-5xl font-bold mb-12">Blog</h1>
+<div class="max-w-2xl mx-auto px-4 py-12">
+
+  
+  <div id="tag-filter" class="flex flex-wrap gap-3 mb-10">
+    <button data-tag="all" class="tag-pill active">All</button>
     
-    <div class="space-y-12 max-w-3xl mx-auto">
+    <button data-tag="test" class="tag-pill">test</button>
+    
+  </div>
+
+  
+  <div id="blog-posts" class="space-y-12">
+    
+    <article class="blog-post" data-tags="test ">
+      <p class="text-sm text-gray-400 mb-1">2025-03-26</p>
+      <h2 class="text-xl font-semibold mb-1">
+        <a href="../blog/post1/" class="text-blue-400 hover:text-blue-300 transition-colors duration-200">
+          Test!
+        </a>
+      </h2>
+      
+      <div class="flex flex-wrap gap-2 mb-2">
         
-    </div>
+        <span class="tag-badge">test</span>
+        
+      </div>
+      
+      <p class="text-gray-400">Hi! No blog here yet, please check back later</p>
+    </article>
+    
+  </div>
 </div>
+
+<style>
+  .tag-pill {
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    border: 1px solid #4b5563;
+    font-size: 0.875rem;
+    color: #d1d5db;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    background-color: transparent;
+  }
+  .tag-pill:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    transform: translateY(-1px);
+  }
+  .tag-pill.active {
+    background-color: rgba(255, 255, 255, 0.12);
+    font-weight: 600;
+  }
+  .tag-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid #4b5563;
+    color: #d1d5db;
+  }
+</style>
+
+<script>
+  const tagButtons = document.querySelectorAll('#tag-filter button');
+  const posts = document.querySelectorAll('.blog-post');
+
+  tagButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      
+      tagButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const tag = btn.getAttribute('data-tag');
+
+      posts.forEach(post => {
+        const tags = post.getAttribute('data-tags');
+        if (tag === 'all' || tags.includes(tag)) {
+          post.style.display = 'block';
+        } else {
+          post.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
 
         </main>
         
