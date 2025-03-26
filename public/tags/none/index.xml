@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>None on Karolina K.</title>
+    <link>http://localhost:1313/tags/none/</link>
+    <description>Recent content in None on Karolina K.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/none/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test 2!</title>
+      <link>http://localhost:1313/blog/post2/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post2/</guid>
+      <description>This blog post is all about the rage I felt when adjusting this website</description>
+    </item>
+  </channel>
+</rss>

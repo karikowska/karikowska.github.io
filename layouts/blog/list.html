@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div class="max-w-2xl mx-auto px-4 py-12">
+
+    <div id="tag-filter" class="flex flex-wrap gap-3 mb-10">
+        <button data-tag="all"
+          class="px-3 py-1 rounded-full border text-sm text-gray-300 bg-white/10 font-semibold border-gray-400 transition-all duration-200 hover:-translate-y-0.5 hover:bg-white/10 active-tag">
+          All
+        </button>
+        {{ range $tag, $_ := .Site.Taxonomies.tags }}
+        <button data-tag="{{ $tag | urlize }}"
+          class="px-3 py-1 rounded-full border border-gray-600 text-sm text-gray-300 transition-all duration-200 hover:-translate-y-0.5 hover:bg-white/10">
+          {{ $tag }}
+        </button>
+        {{ end }}
+      </div>
+      
+      
+  
+  <!-- Blog Posts -->
+  <div id="blog-posts" class="space-y-12">
+    {{ range .Pages.ByDate.Reverse }}
+    <article class="blog-post" data-tags="{{ range $i, $tag := .Params.tags }}{{ if $i }} {{ end }}{{ $tag | urlize }}{{ end }}">
+      <p class="text-sm text-gray-400 mb-1">{{ .Date.Format "2006-01-02" }}</p>
+      <h2 class="text-xl font-semibold mb-1">
+        <a href="{{ .RelPermalink }}" class="text-blue-400 hover:text-blue-300 transition-colors duration-200">
+          {{ .Title }}
+        </a>
+      </h2>
+      {{ if .Params.tags }}
+      <div class="flex flex-wrap gap-2 mb-2">
+        {{ range .Params.tags }}
+        <span class="px-2 py-0.5 border border-gray-600 rounded-full text-xs text-gray-300">{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+      <p class="text-gray-400">{{ .Summary }}</p>
+    </article>
+    {{ end }}
+  </div>
+</div>
+<style>
+.tag-pill {
+  @apply px-3 py-1 rounded-full border border-gray-600 text-sm text-gray-300 transition-all duration-200 hover:-translate-y-0.5 hover:bg-white/10;
+}
+
+.active-tag {
+  @apply bg-white/15 font-semibold border-gray-400;
+}
+
+    </style>
+    
+    
+{{ end }}

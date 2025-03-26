@@ -1,0 +1,79 @@
+baseURL = "http://127.0.0.1:1313/"
+languageCode = 'en-us'
+title = 'Karolina K.'
+theme = 'hugo-noir'
+=======
+
+# URL handling
+relativeURLs = true
+canonifyURLs = true
+
+# Taxonomy configuration
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+name = "Karolina K."
+location = "London, UK"
+description = "Always ready to learn and innovate. Approachable, early-career engineer who's eagerly dipping her toes in leadership and creating impact."
+profile_image = "/images/profile.jpg"
+discord = "scionofdarkness"
+github = "https://github.com/karikowska"
+email = "karo.a.kowalska@gmail.com"
+linkedin = "https://linkedin.com/in/karolina-a-kowalska"
+
+[[params.experience]]
+company = "GSK"
+role = "Digital and Tech Associate (FLP Graduate Scheme)"
+period = "Sept 2024 - Present"
+logo = "/images/logo/gsk.png"
+description = "First rotation in Supply Chain, working on AI, Digital Twins and Autonomous Systems. Stack: AzureML, Python, pytest"
+responsibilities = [
+    "Key responsibility with specific achievement",
+]
+
+[[params.experience]]
+company = "Durham University"
+role = "MEng Computer Science"
+period = "Sept 2020 - July 2024"
+logo = "/images/logo/dur.png"
+description = "First Class Honours. Thesis: 71%"
+responsibilities = [
+    "Key responsibility with specific achievement",
+]
+
+[[params.projects]]
+    title = "Velu - AI-Powered Product & Price Scraper"
+    description = "I collect figures in my free time, and I check their prices frequently... to save on time, I've offloaded this task onto an LLM! Given the item I want to find and the website, the LLM autonomously searches and fetches me the most relevant items and their prices."
+    tech = "Python, BeautifulSoup4, LangChain"
+    image = "/images/projects/project1.png"
+    link = "https://github.com/karikowska/price-scraper"
+
+[[params.voluntary]]
+role = "Events and Partnerships Lead"
+organization = "Uplift, a GSK UK ERG"
+period = "Jan 2025 - Present"
+description = "Brief description of your volunteer work and responsibilities."
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Experience"
+    url = "/experience/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact Me"
+    url = "/contact/"
+    weight = 5
