@@ -2,19 +2,19 @@ baseURL = "https://karikowska.github.io/"
 languageCode = 'en-us'
 title = 'Karolina K.'
 theme = 'hugo-noir'
-publishDir = "docs"
 
 # URL handling
 relativeURLs = true
 canonifyURLs = true
 
-[outputs]
-  home = ["HTML", "RSS"]
-
 # Taxonomy configuration
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [params]
 name = "Karolina K."
