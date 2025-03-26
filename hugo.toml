@@ -11,9 +11,6 @@ canonifyURLs = true
 [outputs]
   home = ["HTML", "RSS"]
 
-[params]
-  noJekyll = true
-
 # Taxonomy configuration
 [taxonomies]
   category = "categories"
@@ -28,6 +25,7 @@ discord = "scionofdarkness"
 github = "https://github.com/karikowska"
 email = "karo.a.kowalska@gmail.com"
 linkedin = "https://linkedin.com/in/karolina-a-kowalska"
+noJekyll = true
 
 [[params.experience]]
 company = "GSK"
