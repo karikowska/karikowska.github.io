@@ -2,10 +2,11 @@ name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 permissions:
-  contents: write  # needed to push to gh-pages
+  contents: write
 
 jobs:
   deploy:
@@ -14,14 +15,16 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3
+      with:
+        submodules: true  # if your theme is a git submodule
 
-    - name: Set up Hugo
+    - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
         extended: true
 
-    - name: Build site
+    - name: Build Hugo site
       run: hugo --minify
 
     - name: Deploy to GitHub Pages
