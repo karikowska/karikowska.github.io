@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Karolina K.</title>
+    <link>http://127.0.0.1:1313/</link>
+    <description>Recent content on Karolina K.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://127.0.0.1:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test!</title>
+      <link>http://127.0.0.1:1313/blog/post1/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://127.0.0.1:1313/blog/post1/</guid>
+      <description>Hi! No blog here yet, please check back later</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://127.0.0.1:1313/about/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://127.0.0.1:1313/about/</guid>
+      <description>About Me </description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://127.0.0.1:1313/contact/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://127.0.0.1:1313/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Experience</title>
+      <link>http://127.0.0.1:1313/experience/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://127.0.0.1:1313/experience/</guid>
+      <description>Early-career CS grad experimenting with where my skills can take me!</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://127.0.0.1:1313/projects/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://127.0.0.1:1313/projects/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
