@@ -1,4 +1,4 @@
-baseURL = "http://127.0.0.1:1313/"
+baseURL = "https://karikowska.github.io/"
 languageCode = 'en-us'
 title = 'Karolina K.'
 theme = 'hugo-noir'
