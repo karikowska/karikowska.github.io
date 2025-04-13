@@ -2,52 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Karolina K.</title>
-    <link>https://karikowska.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Karolina K.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://karikowska.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test Post</title>
-      <link>https://karikowska.github.io/blog/test/</link>
+      <link>http://localhost:1313/blog/test/</link>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://karikowska.github.io/blog/test/</guid>
+      <guid>http://localhost:1313/blog/test/</guid>
       <description>This is just a test.</description>
     </item>
     <item>
-      <title>Test!</title>
-      <link>https://karikowska.github.io/blog/post1/</link>
-      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://karikowska.github.io/blog/post1/</guid>
-      <description>Hi! No blog here yet, please check back later</description>
-    </item>
-    <item>
       <title>About</title>
-      <link>https://karikowska.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://karikowska.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description></description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://karikowska.github.io/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://karikowska.github.io/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description></description>
     </item>
     <item>
       <title>Experience</title>
-      <link>https://karikowska.github.io/experience/</link>
+      <link>http://localhost:1313/experience/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://karikowska.github.io/experience/</guid>
+      <guid>http://localhost:1313/experience/</guid>
       <description>Early-career CS grad experimenting with where my skills can take me!</description>
     </item>
     <item>
       <title>Projects</title>
-      <link>https://karikowska.github.io/projects/</link>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://karikowska.github.io/projects/</guid>
+      <guid>http://localhost:1313/projects/</guid>
       <description></description>
     </item>
   </channel>

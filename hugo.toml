@@ -27,14 +27,25 @@ email = "karo.a.kowalska@gmail.com"
 linkedin = "https://linkedin.com/in/karolina-a-kowalska"
 linkedin_username = "karolina-a-kowalska"
 
+[[params.projects]]
+    title = "Velu - AI-Powered Product & Price Scraper"
+    description = "I collect figures in my free time, and I check their prices frequently... to save on time, I've offloaded this task onto an LLM through the CLI, or an agent with a handy UI! Given the item I want to find and the website, the program scrapes a few product listings from the given site, uses vector embeddings to ensure the result is relevant and hands it to an LLM, which searches and fetches me the prices. In agentic mode, the agent verifies that scraped results do not exceed my budget per figure and outputs the cheapest listing."
+    tech = "Python, BeautifulSoup4, LangChain, NLP, SentenceTransformers, Streamlit"
+    image = "/images/veluscreen22.png"
+    link = "https://github.com/karikowska/price-scraper"
+
 [[params.experience]]
 company = "GSK"
 role = "Digital and Tech Associate (Future Leader Programme)"
 period = "Sept 2024 - Present"
 logo = "/images/logo/gsk.png"
-description = "First rotation in Supply Chain - working on AI, Digital Twins and Autonomous Systems. Stack: AzureML, Python, pytest"
+description = "First rotation in Supply Chain - working on AI, Digital Twins and Autonomous Systems. Tech stack: AzureML, Python. Soft stack: leadership, product ownership, communication, teamwork."
 responsibilities = [
-    "Key responsibility with specific achievement",
+    "- Independently migrated and designed a capability from a legacy intelligence system to new Python package, with use cases valued up to £75,000,000",
+    "- Implemented MLOps drift monitoring solution for an industrialised digital twin, leading to reduced model incident detection time by 75%",
+    "- Developed and optimised digital twin package, adding endpoint, deployment and pipeline creation capabilities - documented work on Confluence to a high standard and gave well-received knowledge transfers to other members of team on cloud-related topics",
+    "- Liaised with stakeholders and external vendors when integrating a POC model auditing workflow, engaging in matrix management",
+    "- Used Git for version control and iterative improvement, attended daily Agile stand-ups, gave code reviews and utilised Azure DevOps for task management"
 ]
 
 [[params.experience]]
@@ -47,7 +58,6 @@ responsibilities = ["- Managing a team of three to design and organise events fo
 "- Learning how to navigate complex environment and policies within a large corporate organisation, influence and manage others effectively"
 ]
 
-
 [[params.experience]]
 company = "Durham University"
 role = "MEng Computer Science"
@@ -55,24 +65,17 @@ period = "Sept 2020 - July 2024"
 logo = "/images/logo/dur.png"
 description = "First Class Honours. Thesis: 71%"
 responsibilities = [
-    "- Worked as a teaching assistant for Computer Systems module for two years, teaching and helping break down complex concepts for 150+ students",
+    "- Worked as a teaching assistant for Computer Systems module for two years, helping break down complex concepts and assignments for 150+ students",
     "- Software Engineering - Successfully led a team of colleagues over an academic year to construct an educational web app for neurodivergent children",
     "- Project Management - Successfully managed a team of software engineering students to build a QnA web app - received a 90% approval rating from engineers for my management style and 81% for my final report",
     "- Human-AI Interaction - Despite having a team member drop out, I successfully led a team of 8 to build a mobile AI-powered flashcard app under intense time pressure of a month",
 ]
 
-[[params.projects]]
-    title = "Velu - AI-Powered Product & Price Scraper"
-    description = "I collect figures in my free time, and I check their prices frequently... to save on time, I've offloaded this task onto an LLM! Given the item I want to find and the website, the LLM autonomously searches and fetches me the most relevant items and their prices."
-    tech = "Python, BeautifulSoup4, LangChain"
-    image = "/images/projects/project1.png"
-    link = "https://github.com/karikowska/price-scraper"
-
 [[params.voluntary]]
 role = "Mentor"
 organization = "ZeroGravity, Stemettes, GSK"
 period = "Sept 2024 - Present"
-description = "I've mentored almost ten young people thus far. I love supporting them on their career/university journey and helping them find out where their passion and skills can take them :)"
+description = "Mentored ~10 young people so far, currently mentoring 2. I love supporting them on their career/university journey and helping them find out where their passion and skills can take them :)"
 
 [menu]
   [[menu.main]]
