@@ -9,7 +9,7 @@ tags: ["conference"]
 
 Welcome to my first blog post! As someone once said to me, it is never too late to start writing and sharing. Over time, I hope to populate my blog with lots of different entries on tech, jobs, life and coding too! :)
 
-This post will be mostly tackling my experience at the London AI Summit. This is my second tech conference ever, after I attended the Women in Data (which from now will be referred to as WiD) conference earlier this year. I have, of course, proudly attended and presented my work at three BCS Lovelace conferences during my university years, but these conferences are of a completely different nature entirely. The AI Summit one, personally, I found much more impressive than WiD, down to the companies exhibiting and the innovation on show. I'll explore some of my thoughts on it.
+This post will be tackling my experience at the London AI Summit. This is my second tech conference ever, after I attended the Women in Data (which from now will be referred to as WiD) conference earlier this year. I have, of course, proudly attended and presented my work at three BCS Lovelace conferences during my university years, but these conferences are of a completely different nature entirely. The AI Summit one, personally, I found much more impressive than WiD, down to the companies exhibiting and the innovation on show. I'll explore some of my thoughts on it.
 
 ![AI Summit stage](/images/conf.jpg)
 
@@ -34,6 +34,8 @@ In addition, **Lloyds Bank shared their "Athena" system** - what I understood to
 Of the entire conference though, **Neil Lawrence's talk was the standout for me**. A researcher at Cambridge University, he opened up the talk with his contrarian take on AGI: it doesn't exist. Claiming that "general intelligence" itself is a problematic, even eugenic concept. He argued that intelligence isn't rankable - while information is fungible and rankable, human intelligence isn't, and there is no such thing as AGI.
 
 He continued on to explain the communication gap - humans process ~2,000 bits/min, while machines ~600 billion bits/min. When machines communicate with each other, they're operating at light speed, but we will always be stuck at biological speeds. Therefore, according to him, the real challenge isn't building smarter AI, it's bridging this fundamental mismatch, or improving the **information flow.** He also drew on Conway's Law in this instance, the principle of an organisation's structure informing how they will design their products and systems, and how this metamorphosis happened with Amazon while he worked there - but genuinely, my post would be way too long if I just went on and on, so I will not pursue that thread!
+
+![AI Summit stage](/images/neil_lawrence.jpg)
 
 His most powerful point was arguably about organizational failure. Companies go bankrupt because there's "zero communication" - leadership, a lot of the time, endorses AI from the top while completely ignoring what workers actually need. He called out the failures of the "Marconi approach" of dropping everything to chase the latest tech without understanding the real problems.
 
