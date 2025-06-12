@@ -6,14 +6,14 @@
     <description>Recent content on Karolina K.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Post</title>
+      <title>My perspectives on London AI Summit 2025: Balance Reigns Supreme</title>
       <link>http://localhost:1313/blog/test/</link>
-      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/test/</guid>
-      <description>This is just a test.</description>
+      <description>My first blog post which summarises my thoughts on a few talks which happened during the London AI Summit 2025.</description>
     </item>
   </channel>
 </rss>
