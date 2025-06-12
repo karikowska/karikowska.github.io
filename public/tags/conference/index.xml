@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My perspectives on London AI Summit 2025: Balance Reigns Supreme</title>
-      <link>http://localhost:1313/blog/test/</link>
+      <link>http://localhost:1313/blog/ai_summit_2025/</link>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/test/</guid>
+      <guid>http://localhost:1313/blog/ai_summit_2025/</guid>
       <description>My first blog post which summarises my thoughts on a few talks which happened during the London AI Summit 2025.</description>
     </item>
   </channel>
